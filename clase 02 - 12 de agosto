@@ -1,3 +1,48 @@
+Anotaciones durante la clase
+Sean Moscoso
+
+Hans Haacke Cubo con condensación (Pérdida de control), la obra no es controlable al 100%
+
+Cádaver exquisito, el resultado es una mezcla de decisiones de más de una persona
+
+Diagrama Sol Lewitt
+
+Arte Generativa
+
+Delegar el control
+
+Poética de las instrucciones
+Agencia sobre las cosas
+
+Avispa alfarera
+
+Huber Duprat, 42nd dora
+
+Giovanni Anselmo Sculpture that eats
+
+Idea del autor
+Simon Wecker, Google Maps Hacks
+
+Cien billones de poemas Raymond Queneau, medio es el mensaje
+Gyorgi Lyguetu, metro homos
+Material-artista, tecnología tiene ideología
+Stere Reich, pendulum music
+Music of changes, John Cage
+Et le ven toujors
+Bruno madena
+Música prescriptiva, descriptiva
+John Cage y Duchamp jugando ajedrez
+Sean hace música livecoding usando Sonic Pi
+A través de una pregunta sobre barajar, que es una clase de aleatorio pero sin repetición entendí que Sonic Pi no tiene memoria y al usar el comando choose puede repetirse una nota, por lo tanto no es barajar.
+Se usan trozos de código para generar sonido
+Sesgo de la teoría
+Es como un collage, y se ocupan distintos comandos, loop, sleep, choose
+También a través de un cubo rubik (o una piezas de un juego de mesa con piezas hexagonales), pure data y un programa antiguo que lee una especie de formas con círculos y a través de grabarlos con una imagen de alto contraste se generan sonidos, mezclandolos de distintas maneras con pure data.
+Pure data lee a través de la imagen y detecta estas formas, que pasan a ser sonidos.
+
+
+
+
 Visita de Sean 
 
 1. ¿qué nueva herramienta, o aproximación computacional, reconociste luego de la visita de sean?
