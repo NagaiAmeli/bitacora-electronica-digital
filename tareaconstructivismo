@@ -1,0 +1,99 @@
+
+PFont fuente;
+void setup(){
+size(800, 600);
+fuente=createFont("Courier new", 20);
+
+}
+void draw(){
+background(0);
+//frameRate(11);
+noLoop();
+//soluciona perdida de marco
+
+
+///Marco
+fill(231, 232, 190);
+rect(30, 10, 20, 800);
+rect(0, 10, 790, 20);
+rect(770, 0, 20, 790);
+rectMode(CENTER);
+rect(390, 300, 650, 500);
+fill(0);
+rect(390, 300, 600, 450);
+fill(201, 14, 14);
+rect(390, 300, 550, 400);
+fill(0);
+rect(390, 300, 600, 350);
+fill(111, 189, 255);
+rect(390, 300, 500, 300);
+fill(0);
+rect(390, 300, 550, 270);
+fill(0);
+rect(400, 300, 12, 600);
+
+
+//circulos rojos
+stroke(121, 13, 42);
+strokeWeight(2);
+
+fill(201, 14, 4);
+ellipse(0, 50, 150, 150);//esquina izq arriba
+ellipse(0, 80, 150, 150);
+fill(201, 14, 4);
+ellipse(0, 110, 150, 150);
+ellipse(0, 140, 150, 150);
+ellipse(0, 170, 150, 150);
+ellipse(0, 200, 150, 150);//fin izq arriba
+
+ellipse(790, 50, 150, 150);//der arriba
+ellipse(750, 50, 150, 150);
+ellipse(720, 50, 150, 150);
+ellipse(690, 50, 150, 150);
+ellipse(660, 50, 150, 150);
+
+ellipse(790, 600, 150, 150);//der abajo
+ellipse(790, 570, 150, 150);
+ellipse(790, 540, 150, 150);
+ellipse(790, 510, 150, 150);
+ellipse(790, 480,150, 150);//fin der abajo
+
+ellipse(10, 400, 150, 150);//inicio abajo izq
+ellipse(45, 400, 150, 150);
+ellipse(90, 400, 150, 150);
+ellipse(120, 400, 150, 150);
+ellipse(160, 600, 150, 150);
+ellipse(190, 600, 150, 150);
+ellipse(220, 600, 150, 150);
+ellipse(250, 600, 150, 150);
+ellipse(280, 600, 150, 150);//fin abajo izq
+//inicio semicirculos
+strokeWeight(0);
+fill(231, 232, 190);
+arc(290, 300, 250, 250, -HALF_PI, HALF_PI, CHORD);
+arc(500, 300, 250, 250, HALF_PI, PI + HALF_PI);
+//circulo interno
+fill(0);
+ellipse(400, 300, 150, 150);
+
+//triangulos
+strokeWeight(0);
+fill(111, 189,255);
+triangle(60, 0, 700, 790, 900, 800);
+fill(0, 93, 219);
+triangle(55, 0, 650, 780, 900, 850);
+textFont(fuente);
+textSize(21);
+text("Ficción", 390, 300);
+pushMatrix();
+translate(130, 100);
+float angulo= frameCount*0.02;
+rotate(0.2);
+stroke(100);
+strokeWeight(4);
+fill(255, 0, 0);
+text("Human kind cannot bear very much reality", 0, 0);
+popMatrix();
+
+
+}
