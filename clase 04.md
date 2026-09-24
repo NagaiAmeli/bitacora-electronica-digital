@@ -23,7 +23,7 @@ Find in reference
 
 Background alpha, transparencia
 
-COLORES en processing
+***COLORES en processing***
 
 Profundidad de color (bits) 8 bits es el estándar
 
